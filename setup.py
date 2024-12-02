@@ -39,29 +39,14 @@ setup(
         ]
     },
     install_requires=[
-        'psutil',
-        'pytextrank',
-        "torch==1.13.0",
-        "tqdm",
-        "requests",
-        "pandas",
+        "psutil",
+        "torch",
         "numpy",
-        "transformers==4.26.1",
-        "huggingface-hub>=0.12.0",
-        # "transformers<=4.21.2",  # push-to-model is not working for latest version
-        # "huggingface-hub<=0.9.1",
+        "transformers",
+        "huggingface-hub",
         "sentencepiece",
         "datasets",
         "spacy",
-        'sudachipy',
-        'sudachidict_core',
-        'bert-score',
-        'pyemd',  # to compute moverscore
-        'evaluate',
-        "wandb",
-        "ray",
-        "ray[tune]",
-        "nltk",
         "accelerate"
     ],
     python_requires='>=3.6',
